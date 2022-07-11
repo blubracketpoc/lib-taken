@@ -1,0 +1,39 @@
+# Fetch full history
+clone:
+  depth: full
+
+pipelines:
+  pull-requests:
+    '**':
+      - step:
+          name: 'Run BluBracket IaC Scan'
+          image:
+            name: blubracket/iac-checker:0.0.4-beta
+            email: $DOCKER_HUB_EMAIL
+          script:
+            - echo "Running 1st BluBracket IaC scan"
+            - echo ${BLUBRACKET_SERVICE_ENDPOINT}
+            - echo ${BITBUCKET_CLONE_DIR}
+            - echo ${BITBUCKET_BRANCH}
+            - echo ${BITBUCKET_WORKSPACE}
+            - env
+            - cd /home/blubracket/iac-checker
+            - pipenv run run --repo-directory ${BITBUCKET_CLONE_DIR} --source-branch ${BITBUCKET_BRANCH} --target-branch ${BITBUCKET_PR_DESTINATION_BRANCH} --do-not-fail-on-misconfigurations --blubracket-service-endpoint ${BLUBRACKET_SERVICE_ENDPOINT} --integration-key ${BLUBRACKET_INTEGRATION_KEY} 
+
+  branches:
+    master:
+      - step:
+          name: 'Run Blubracket IaC Scan'
+          image:
+            name: blubracket/iac-checker:0.0.4-beta
+            email: $DOCKER_HUB_EMAIL
+          script:
+            - echo "Running BluBracket IaC scan on main"
+            - echo ${BLUBRACKET_SERVICE_ENDPOINT}
+            - echo ${BITBUCKET_CLONE_DIR}
+            - echo ${BITBUCKET_BRANCH}
+            - echo ${BITBUCKET_WORKSPACE}
+            - env
+            - cd /home/blubracket/iac-checker
+            - pipenv run run --repo-directory ${BITBUCKET_CLONE_DIR} --do-not-fail-on-misconfigurations --source-branch ${BITBUCKET_BRANCH} --blubracket-service-endpoint ${BLUBRACKET_SERVICE_ENDPOINT} --integration-key ${BLUBRACKET_INTEGRATION_KEY} 
+
