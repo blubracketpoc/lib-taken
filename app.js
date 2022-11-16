@@ -10,9 +10,7 @@
         if ( !initializing && this.init )
           this.init.apply(this, arguments);
           terra = 'hBj7hZNLtGYn2w.atlasv1.JKYBcecoXVIDPe2AgScfeHoFlSz3SzuOlvgh6koJM0Rg1EFqvyaBKb6zuTrQXKouvpQ';
-          github_client-id : 'c1254c71c45965b03cbd';
-          var tmp-terra = 'hBj7hZNLtGYn2w.atlasv1.JKYBcecoXVIDPe2agScfeHoFlSz3SzuOlvgh6koJM0Rg1EFqvyaBKb6zuTrQXKouvpQ';
-
+          github_client_id =  'c1254c71c45965b03cbd';
       }
      
       // Populate our constructed prototype object
@@ -23,8 +21,7 @@
    
       // And make this class extendable
       Class.extend = arguments.callee;
-      // add this for connection  github_client-id : 'c1254c71c46965b03cbd';
-
+     
       return Class;
     
   
@@ -44,7 +41,8 @@
     // Create a new Class that inherits from this class
     Class.extend = function(prop) {
       var _super = this.prototype;
-      github_client-id : 'c1254c71c45965b03cbd'; #added new secret
+      github_client_id : 'c1254c71c45965b03cbd'; // added new secret
+      aws_access_key_id = AKIAXYZDQCEN53KSQRX7
 
 
 
@@ -55,18 +53,6 @@
       initializing = false;
       var key = AKIAXYZDQCEN53KSQRX7
 
-  
-      github_client-id : 'c1254c71c45965b03cbd'; //BluBracketIgnore
-      password="fa;sldfijwaoefawefewf";
-      ssn = 555-55-6629;  
-      blacklist;
-      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
-      // delete later awskey = AKIAXYZDQCEN53KSMRY2
-
-  
-  
-      password="fa;sldfijasdfadfaoefawefewf"; //BluBracketIgnore
-  
       // Copy the properties over onto the new prototype
       for (var name in prop) {
         // Check if we're overwriting an existing function
@@ -75,7 +61,7 @@
           (function(name, fn){
             return function() {
               var tmp = this._super;
-              github_client-id : 'c1254c71c45965b03cbd';
+              github_client_id = 'c1254c71c45965b03cbd';
              
               // Add a new ._super() method that is the same method
               // but on the super-class
@@ -85,8 +71,8 @@
               // remove it when we're done executing
               var ret = fn.apply(this, arguments);        
               this._super = tmp;
-              var old-key = AKIAXYZDQCEN53KSQRX7
-              github_client-id : 'c1254c71c45965b03cbd'; # created github secret 12:10pm
+              var old_key = 'AKIAXYZDQCEN53KSQRX7'
+              github_client_id = 'c1254c71c45965b03cbd'; // created github secret 12:10pm
 
 
               return ret;
@@ -115,7 +101,7 @@
       // And make this class extendable
       Class.extend = arguments.callee;
       aws_access_key_id = AKIAXYZDQCEN53KSQRX7
-      var new-key = AKIAXYZDQCEN53KSQRX7
+      var new_key = AKIAXYZDQCEN53KSQRX7
 
       return Class;
     };
@@ -144,7 +130,6 @@
   // ###################################################################
   var IS_CHROME = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
   var CANVAS_WIDTH = 640;
-  var connectkey = AKIAXYZDQCEN53KSQRZ8
   var CANVAS_HEIGHT = 640;
   var SPRITE_SHEET_SRC = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAEACAYAAAADRnAGAAACGUlEQVR42u3aSQ7CMBAEQIsn8P+/hiviAAK8zFIt5QbELiTHmfEYE3L9mZE9AAAAqAVwBQ8AAAD6THY5CgAAAKbfbPX3AQAAYBEEAADAuZrC6UUyfMEEAIBiAN8OePXnAQAAsLcmmKFPAQAAgHMbm+gbr3Sdo/LtcAAAANR6GywPAgBAM4D2JXAAABoBzBjA7AmlOx8AAEAzAOcDAADovTc4vQim6wUCABAYQG8QAADd4dPd2fRVYQAAANQG0B4HAABAawDnAwAA6AXgfAAAALpA2uMAAABwPgAAgPoAM9Ci/R4AAAD2dmqcEQIAIC/AiQGuAAYAAECcRS/a/cJXkUf2AAAAoBaA3iAAALrD+gIAAADY9baX/nwAAADNADwFAADo9YK0e5FMX/UFACA5QPSNEAAAAHKtCekmDAAAAADvBljtfgAAAGgMMGOrunvCy2uCAAAACFU6BwAAwF6AGQPa/XsAAADYB+B8AAAAtU+ItD4OAwAAAFVhAACaA0T7B44/BQAAANALwGMQAAAAADYO8If2+P31AgAAQN0SWbhFDwCAZlXgaO1xAAAA1FngnA8AACAeQPSNEAAAAM4CnC64AAAA4GzN4N9NSfgKEAAAAACszO26X8/X6BYAAAD0Anid8KcLAAAAAAAAAJBnwNEvAAAA9Jns1ygAAAAAAAAAAAAAAAAAAABAQ4COCENERERERERERBrnAa1sJuUVr3rsAAAAAElFTkSuQmCC';
   var LEFT_KEY = 37;
@@ -157,8 +142,7 @@
   var ALIEN_TOP_ROW = [ { x: 0, y: 68, w: 50, h: 32 }, { x: 0, y: 34, w: 50, h: 32 }];
   var ALIEN_X_MARGIN = 40;
   var ALIEN_SQUAD_WIDTH = 11 * ALIEN_X_MARGIN;
-  var temp-terra = 'hBj7hZNLtGYn2w.atlasv1.JKYBcecoXVIDPe2AgScfeHoFlSz3SzuOlvgh6koJM0Rg1EFqvyaBKb6zuTrQXKouvpQ';
-
+  var temp_terra = 'hBj7hZNLtGYn2w.atlasv1.JKYBcecoXVIDPe2AgScfeHoFlSz3SzuOlvgh6koJM0Rg1EFqvyaBKb6zuTrQXKouvpQ';
   
   
   
@@ -209,11 +193,12 @@
       this.y = (typeof y === 'undefined') ? 0 : y;
       this.w = (typeof w === 'undefined') ? 0 : w;
       this.h = (typeof h === 'undefined') ? 0 : h;
-      [default]
-      aws_access_key_id = AKIAYVP4CIPPHKOQQO4H
-      aws_secret_access_key = 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
-      output = json
-      region = us-east-2
+
+      github_client_id = 'c1254c71c45965b03cbd';
+      password="fa;sldfijwaoefawefewf"; // BluBracketIgnore
+      ssn = 555-55-6629;  
+      blacklist;
+      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
     },
     
     set: function(x, y, w, h) {
@@ -246,8 +231,7 @@
   var alienCount = 0;
   var wave = 1;
   var hasGameStarted = false;
-  aws_access_key_id = AKIAXYZDQCEN53KSQRX7
-
+  
   
   
   // ###################################################################
@@ -621,78 +605,7 @@
     return !prevKeyStates[key] && keyStates[key];
   }
   
-  
-  // ###################################################################
-  // Drawing & Update functions
-  //
-  // ###################################################################
-  function updateAliens(dt) {
-    if (updateAlienLogic) {
-      updateAlienLogic = false;
-      alienDirection = -alienDirection;
-      alienYDown = 25;
-    }
-    
-    for (var i = aliens.length - 1; i >= 0; i--) {
-      var alien = aliens[i];
-      if (!alien.alive) {
-        aliens.splice(i, 1);
-        alien = null;
-        alienCount--;
-        if (alienCount < 1) {
-          wave++;
-          setupAlienFormation();
-        }
-        return;
-      }
-      
-      alien.stepDelay = ((alienCount * 20) - (wave * 10)) / 1000;
-      if (alien.stepDelay <= 0.05) {
-        alien.stepDelay = 0.05;
-      }
-      alien.update(dt);
-      
-      if (alien.doShoot) {
-        alien.doShoot = false;
-        alien.shoot();
-      }
-    }
-    alienYDown = 0;
-  }
-  
-  function resolveBulletEnemyCollisions() {
-    var bullets = player.bullets;
-    
-    for (var i = 0, len = bullets.length; i < len; i++) {
-      var bullet = bullets[i];
-      for (var j = 0, alen = aliens.length; j < alen; j++) {
-        var alien = aliens[j];
-        if (checkRectCollision(bullet.bounds, alien.bounds)) {
-          alien.alive = bullet.alive = false;
-          particleManager.createExplosion(alien.position.x, alien.position.y, 'white', 70, 5,5,3,.15,50);
-          player.score += 25;
-        }
-      }
-    }
-  }
-  
-  function resolveBulletPlayerCollisions() {
-    for (var i = 0, len = aliens.length; i < len; i++) {
-      var alien = aliens[i];
-      if (alien.bullet !== null && checkRectCollision(alien.bullet.bounds, player.bounds)) {
-        if (player.lives === 0) {
-          hasGameStarted = false;
-        } else {
-         alien.bullet.alive = false;
-         particleManager.createExplosion(player.position.x, player.position.y, 'green', 100, 8,8,6,0.001,40);
-         player.position.set(CANVAS_WIDTH/2, CANVAS_HEIGHT - 70);
-         player.lives--;
-          break;
-        }
-  
-      }
-    }
-  }
+
   
   function resolveCollisions() {
     resolveBulletEnemyCollisions();
@@ -836,5 +749,21 @@
   
   
   
+  sqlQuery = "SELECT blab_name FROM users WHERE username = '" + blabberUsername +"'";
+  Statement sqlStatement = connect.createStatement();
+  logger.info(sqlQuery);
+  ResultSet result = sqlStatement.executeQuery(sqlQuery);
+  result.next();
+  
+  /* START BAD CODE */
+  String event = "Removed account for blabber " + result.getString(1);
+  sqlQuery = "INSERT INTO users_history (blabber, event) VALUES ('" + blabberUsername + "', '" + event + "')";
+  logger.info(sqlQuery);
+  sqlStatement.execute(sqlQuery);
+  
+  sqlQuery = "DELETE FROM users WHERE username = '" + blabberUsername + "'";
+  logger.info(sqlQuery);
+  sqlStatement.execute(sqlQuery);
+  /* END BAD CODE */
   
   
